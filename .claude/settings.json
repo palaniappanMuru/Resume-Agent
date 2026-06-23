@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -la \"c:\\\\Users\\\\User\\\\Desktop\\\\The Condenser\\\\Code\\\\Resume Agent\\\\\" | head -50)",
+      "Read(//c/Users/User/Desktop/The Condenser/Code/**)",
+      "Bash(python -m pytest tests/ -q)"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+Software Engineering Manager - .Net Full Stack
+
+About the job
+At U.S. Bancorp India, we’re on a journey to do our best. We believe it takes all of us to bring our shared ambition to life, and each person is unique in their potential. A career with U.S. Bancorp India gives you a wide, ever-growing range of opportunities to discover what makes you thrive at every stage of your career. Try new things, learn new skills and discover what you excel at—all from Day One.
+
+Job Description
+
+Collaborate closely with the onshore manager to plan, coordinate, and execute team activities, including participating in daily or frequent alignment meetings to ensure priorities and deliverables are clearly understood. Maintain a comprehensive understanding of the team’s domain and systems to effectively support development and operational needs. Partner with other EAS teams to drive cross-functional initiatives and ensure seamless integration and delivery. Uphold high standards for coding practices, system design, and production support while contributing to roadmap planning and strategic direction. Communicate effectively across all levels of the organization, demonstrating strong verbal and written skills. Provide leadership through mentoring and guiding engineering staff, including supporting career growth and development planning to build a high-performing team.
+
+Agile
+
+Attend and actively participate in standard Agile ceremonies, including QPP, Quad Squad meetings, Daily Standups, Sprint Demos, and Backlog Reviews, ensuring alignment with project goals and timelines. Work closely and maintain continuous synchronization with onshore teams to coordinate activities, address dependencies, and ensure seamless execution of deliverables. Provide clear, timely updates during Business Line Development Priority meetings, effectively communicating progress, risks, and key accomplishments to stakeholders.
+
+SDLC
+
+Manage the Software Development Life Cycle (SDLC) in close coordination with the onshore manager, ensuring alignment on priorities, timelines, and deliverables across all phases. Oversee and coordinate release schedules for both UAT and Production environments, ensuring readiness through clearly defined testing and release requirements. Ensure all required release documentation is complete, accurate, and compliant with organizational standards. Drive execution against established deadlines, proactively managing risks and dependencies to ensure timely delivery. Participate in and lead production release rotations, including hands-on involvement in deployment activities and attending production releases to ensure stability, quality, and successful implementation.
+
+Application Support
+
+Oversee application support operations by managing offshore on-call rotations to ensure consistent coverage and timely issue resolution. Coordinate closely with onshore teams to synchronize Production and UAT releases, ensuring alignment and smooth execution across environments. Provide incident management support during offshore daylight hours, including handling Priority 2 incidents with urgency and precision to minimize business impact. Support Problem and Change Management tickets. Perform application monitoring and proactively address issues to maintain system stability and performance during offshore daylight times. Deliver responsive Business Line support during offshore hours, ensuring seamless user experience and stakeholder satisfaction. Additionally, manage and coordinate vulnerability remediation efforts by tracking, prioritizing, and ensuring timely resolution of identified security risks in accordance with organizational standards.
+
+Managing Staff
+
+Manage and oversee a team of 5–10 engineering staff members, providing leadership, direction, and performance oversight to ensure delivery of high-quality results. Provide technical guidance and escalation support for complex system and application issues.  Conduct regular one-on-one and team meetings with offshore staff to support alignment, collaboration, and ongoing development. Administer performance management processes, including Quarterly, Midyear, and End-of-Year reviews, delivering constructive feedback, and supporting career growth. Oversee time tracking and Clarity/time entry processes to ensure accuracy and compliance. Lead training initiatives by identifying skill gaps, assigning relevant learning opportunities, and fostering continuous development. Manage Workday-related activities for offshore staff, including absences, development plans, and personnel updates. Additionally, lead offshore staffing efforts, including onboarding, recruiting, and interviewing, to build and maintain a strong, capable engineering team.
+
+Required Skills
+
+Minimum of 10 years of overall professional experience in software engineering or related fields, with at least 3–4 years in a managerial role leading team of 5–10 engineers. Demonstrated ability to effectively manage, mentor, and develop technical staff while driving team performance and delivery outcomes. Strong experience interacting with technical engineers across various functions, with the ability to understand complex technical concepts, facilitate collaboration, and communicate effectively to support project execution and organizational goals.
+
+Nice to have skills
+
+Familiarity with tools and platforms such as ServiceNow (ITSM – Incident, Problem & Change Management), VNDLY, Confluence, Sapience, and Access Management solutions to support operational and administrative functions. Working knowledge of Agile methodologies and tools, including Jira and standard Agile ceremonies such as Daily Standups (DSU), grooming sessions, and sprint planning. Experience with CI/CD pipelines and automation tools such as Jenkins, as well as exposure to cloud platforms like Azure. Understanding of test automation approaches, including codeless frameworks or tools such as Playwright, PractiTest, and SonarQube for quality assurance and code analysis. Technical proficiency or foundational knowledge in .NET, C#, SQL, and development environments such as Visual Studio Code is also considered beneficial. Working experience in: Hardware infrastructure, Computer operations, IT systems management, Software Distribution concepts
+
+If there’s anything we can do to accommodate a disability during any portion of the application or hiring process, please refer to our disability accommodations for applicants.
+
+Posting may be closed earlier due to high volume of applicants.
+
+This is an U.S. Bancorp India posting. U.S. Bancorp India is a part of the U.S. Bank family.

@@ -1,0 +1,3 @@
+(1) Update the missing skills in to the database with mentioning as missed skills
+(2) Scores can be more meaningfull with explanation
+(3) CV should be constructed using LLM (may be gemini)

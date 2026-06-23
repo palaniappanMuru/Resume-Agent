@@ -1,0 +1,10 @@
+langchain>=0.3
+langchain-anthropic>=0.3
+langchain-openai>=0.2
+langgraph>=0.2
+pydantic>=2
+neo4j>=5
+sentence-transformers>=3
+python-docx>=1.1
+pypdf>=4
+python-dotenv>=1

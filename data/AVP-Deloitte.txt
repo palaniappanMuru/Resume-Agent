@@ -1,0 +1,68 @@
+Associate Vice President, Engineering Management 
+
+
+About the job
+Summary
+
+ Position Summary 
+
+National Consulting Services 
+
+The National Office, a key Strategic Enabler in our new model, is comprised of professionals with various areas of focus that collectively provide mission critical services to support Deloitte’s overall success. Whether focused on project financial, quality and risk management, methods and tools, sales excellence, talent, leadership support, or other activities these professionals ensure that our Firm operates efficiently, and our people are able to effectively serve clients every day. 
+
+Position Summary:
+
+Level:  Associate Vice President, Engineering Management
+
+The Product Engineering Manager is a key leadership role in product team primarily responsible for building and delivering the enterprise software product that is implemented for multiple clients. Development/Engineering manager is a hands-on technical manager managing significant strategic and technical aspect of products, including communications with Leadership, leading multifunctional teams, quality, and adherence to Deloitte standards and processes.
+
+ Work you’ll do: 
+
+Key Responsibilities:
+
+Leadership & Delivery
+
+Build and lead a high-performing engineering organization (engineers and engineering managers), including hiring, coaching, and performance management.
+ Own end-to-end systems software delivery , from design through release, ensuring predictable execution and high quality. 
+ Set technical vision and enforce best practices across architecture, code quality, testing, and documentation. 
+ Partner cross-functionally with Product, Design, Architecture, DevOps/SRE, QA, Performance, and Customer Success to align priorities, define requirements, and remove blockers. 
+ Drive engineering productivity through Generative AI (GenAI) adoption and enablement. 
+ Assess and optimize engineering maturity, estimation approach, and deployment/operating models to improve delivery outcomes.
+
+Engineering Excellence
+
+ Provide technical direction and oversight for key initiatives, including architectural reviews and critical technical decisions. 
+ Improve iteration velocity via tooling, CI/CD, test automation, and standardization. 
+ Reduce and prevent technical debt; ensure the platform remains maintainable and current with modern patterns and stack evolution. 
+ Stay current on industry trends (including GenAI) and incorporate relevant advancements into strategy and execution. 
+
+Operating Model & Continuous Improvement
+
+ Implement and continuously refine engineering processes and operating rhythms (e.g., planning, code reviews, release management, on-call/incident learnings). 
+ Drive measurable improvements in efficiency, reliability, quality, and collaboration. 
+
+The Team
+
+Offering customer-tailored services and deep industry insights, at Deloitte Consulting LLP we help clients tackle their most complex challenges enabling them to seize new growth opportunities, reduce costs, improve efficiency and stay ahead of customer demand.Developing and executing our clients’ strategic vision, we help them dramatically improve their business performance across a broad range of specialties – enterprise model design, global business services, outsourcing, real estate, and location strategy.
+
+Our Deloitte Innovations and Technology teams are working on delivering innovative cloud-based solutions across a range of domains and industries (e.g. supply chain management, banking/insurance, CPG, retail, etc.).It is a fast-paced, innovative and exciting environment.Our teams are following an agile development approach and work with the latest technologies across a wide range of cloud technologies, commercial options and open source.We are building and bringing solutions to the market which we are hosting and operating for our clients.
+
+Required Qualifications
+
+ 16+ years of software engineering experience, including 6+ years in engineering leadership/management for product engineering teams of sizes greater than 20 engineers. 
+ Proven ability to lead architecture discussions, make technical decisions, and balance short-term delivery with long-term maintainability. 
+ Strong experience in distributed systems, microservices, and scalable backend services/APIs. 
+ Experience leading Generative AI solutions using open-source LLMs (e.g., Llama, BERT, Mistral) and commercial models (e.g., OpenAI GPT, Claude, Cohere). 
+ Working knowledge of agentic AI and frameworks such as LangChain/LangGraph. 
+ Cloud: AWS required; Azure a plus. 
+ Containers/orchestration: Docker, Kubernetes (Helm/Argo CD preferred). 
+ Proficiency in one or more stacks (based on product needs): 
+ Backend: Java, Node.js, Python 
+ Frontend: React 
+ Strong knowledge of Agile/Scrum and engineering best practices (testing, code quality, version control). 
+ Demonstrated track record mentoring engineers, driving execution, and leading teams through technical complexity. 
+ Education: 
+
+ Bachelor’s or Master’s degree in Computer Science, AI, or related field. 
+
+Location: Bengaluru/Hyderabad

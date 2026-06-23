@@ -1,0 +1,62 @@
+Senior Engineering Manager
+
+Tekion Corp
+
+About the job
+Role
+Senior Engineering Manager
+
+
+
+Location
+Chennai
+
+
+
+About Tekion 
+
+At Tekion, we are building the only cloud-native platform that is transforming the automotive retail industry, leapfrogging it into the future, and providing unparalleled customer experience. We create seamlessly integrated, elegant, and intuitive solutions built with innovative technology and powered by Big Data, Machine Learning (ML)/ AI, and Internet of Things (Connected vehicle to connected devices). We harness our passion, entrepreneurial spirit, deep industry expertise, and the latest technologies to create something incredibly special. We are inventing modern technology along the way to overcome barriers and solve big problems, all while having a blast doing it!
+
+
+Role Overview 
+
+We are seeking a Senior Engineering Manager to lead the engineering organization for Tekion Automotive Marketing Cloud (TAMC) — a fully AI-native product built to solve the marketing and advertising needs of automotive industry partners. TAMC is one of Tekion’s most strategic new product lines, and this role is central to its success.
+You will be hands-on from day one — directly owning sprint cadence, technical direction, and individual engineer development. As we launch and scale, Engineering Managers will be hired into the structure, evolving this into a broader leadership role. You will also be the primary engineering counterpart to product and business partners across India and US time zones, ensuring tight alignment between business goals and engineering execution
+
+
+Key Responsibilities
+
+Directly lead the TAMC engineering team (~20 engineers): two Scrum teams, Staff/Senior engineers, Applied ML, and Staff SDET — with the expectation of building out a management layer as the org scales.
+Own delivery accountability: sprint cadence, cross-team dependency management, risk tracking, and executive reporting on engineering progress.
+Set and enforce technical standards: hexagonal architecture discipline, AI-native integration patterns, code quality gates, and observability standards across both teams.
+Act as the primary engineering counterpart to product and business partners across India and US time zones — translate business requirements into engineering execution plans, surface trade-offs early, and maintain shared understanding of what is being built and why.
+Own the cross-team coordination interface to platform teams (Agentic Engine, Core Platform, ARC backend, Design) — ensuring TAMC’s dependencies are tracked, escalated, and resolved on schedule.
+Hire, develop, and retain top engineering talent: own the full hiring pipeline, define career ladders, conduct performance reviews, and make compensation decisions.
+Drive the technical roadmap for the next wave of AI capabilities in partnership with the ML Architect, Applied Scientist, and Product leadership.
+Maintain technical depth: actively participate in architecture reviews, challenge design decisions, and unblock engineers on complex distributed systems and AI integration challenges.
+Build and sustain a high-trust, high-accountability engineering culture where engineers feel ownership, psychological safety, and pride in their craft
+ Skills & Qualifications
+
+12+ years of software engineering experience with 5+ years of engineering leadership — managing managers and leading teams of 15+ engineers
+Deep technical background in Java backend systems, distributed microservices, and event-driven architecture — able to engage credibly in architecture reviews and design decisions.
+Proven track record building and operating SaaS platforms on AWS with multi-database stacks (MongoDB, PostgreSQL, Kafka, Elasticsearch, Redis/Aerospike).
+Demonstrated experience with hexagonal architecture at scale — enforcing domain isolation as teams and services grow.
+Experience partnering closely with ML/AI teams on production AI systems — comfortable driving technical decisions across LLM integration, agentic pipelines, and AI-native product architectures.
+Strong cross-functional leadership: experience working closely with Product Management, Design, and executive stakeholders across geographies (US-India distributed teams).
+Track record of recruiting and developing senior engineering talent — building teams from the ground up in competitive markets.
+Experience delivering in fast-paced, high-ambiguity environments with evolving platform dependencies and shifting priorities.
+
+
+ Good to Have 
+
+Experience leading engineering teams building AI-native products (LLM integration, agentic systems, scoring pipelines, MCP tool design).
+Background in martech, customer data platforms, or dealer/automotive technology.
+Prior experience managing both backend and frontend engineering disciplines within the same org.
+Exposure to Temporal for durable workflow orchestration at the team level.
+
+
+Perks & Benefits 
+
+Competitive compensation and generous stock options.
+Medical insurance coverage.
+Work with some of the brightest minds from Silicon Valley's most dominant and successful companies.

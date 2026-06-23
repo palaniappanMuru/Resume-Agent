@@ -1,0 +1,15 @@
+Senior Data Engineer
+
+We are looking for a Senior Data Engineer with 5+ years of experience in fintech.
+
+Requirements:
+- Strong experience with Python and SQL
+- Hands-on experience with Apache Kafka and Airflow
+- Familiarity with cloud platforms such as AWS
+- Excellent communication and stakeholder management skills
+- Experience building real-time fraud detection pipelines in fintech
+
+Responsibilities:
+- Design and build scalable ETL pipelines
+- Collaborate with data science teams on model deployment
+- Mentor junior engineers

@@ -1,0 +1,51 @@
+ "gaps": [
+    {
+      "category": "hard_skill",
+      "item": "KPI management",
+      "reason": "No Skill node matched 'KPI management' above similarity 0.75"
+    },
+    {
+      "category": "hard_skill",
+      "item": "Operations management",
+      "reason": "No Skill node matched 'Operations management' above similarity 0.75"
+    },
+    {
+      "category": "hard_skill",
+      "item": "Capacity planning",
+      "reason": "No Skill node matched 'Capacity planning' above similarity 0.75"
+    },
+    {
+      "category": "soft_skill",
+      "item": "Communication",
+      "reason": "No Skill node matched 'Communication' above similarity 0.75"
+    },
+    {
+      "category": "soft_skill",
+      "item": "Interpersonal skills",
+      "reason": "No Skill node matched 'Interpersonal skills' above similarity 0.75"
+    },
+    {
+      "category": "soft_skill",
+      "item": "Analytical thinking",
+      "reason": "No Skill node matched 'Analytical thinking' above similarity 0.75"
+    },
+    {
+      "category": "soft_skill",
+      "item": "Conflict resolution",
+      "reason": "No Skill node matched 'Conflict resolution' above similarity 0.75"
+    },
+    {
+      "category": "domain_experience",
+      "item": "Financial services",
+      "reason": "No project/accomplishment evidence above similarity 0.5 (best=0.00)"
+    },
+    {
+      "category": "domain_experience",
+      "item": "IT services delivery",
+      "reason": "No project/accomplishment evidence above similarity 0.5 (best=0.00)"
+    },
+    {
+      "category": "domain_experience",
+      "item": "Large-scale portfolio management ($10M+)",
+      "reason": "No project/accomplishment evidence above similarity 0.5 (best=0.00)"
+    }
