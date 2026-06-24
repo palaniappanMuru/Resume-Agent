@@ -43,6 +43,41 @@ python -m resume_agent.cli run --jd path/to/job_description.pdf
 
 Outputs land in `output/<job_title>_resume.json` and `output/<job_title>_resume.docx`.
 
+## API
+
+`resume_agent/api.py` exposes the pipeline over HTTP (FastAPI) so a UI can call it directly:
+
+- `POST /generate-resume` — form fields `jd_text` (raw JD string) or `jd_file` (JD .txt/.pdf upload).
+  Returns the ATS report, match status, and (if matched) the tailored resume JSON plus
+  `json_filename`/`docx_filename` to fetch via `/download/{filename}`.
+- `GET /download/{filename}` — streams a generated `.json`/`.docx` from `output/`.
+- `GET /health` — liveness check.
+
+A full run (JD parsing → graph retrieval/write-back → ATS scoring → resume generation) takes
+roughly 1-3 minutes, dominated by the two LLM calls; size your UI's request timeout accordingly.
+
+Run locally:
+
+```bash
+uvicorn resume_agent.api:app --reload
+```
+
+### Deploy (Render free web service)
+
+`render.yaml` at the repo root defines a free Python web service. To deploy:
+
+1. Push this repo to GitHub.
+2. In Render, create a new Blueprint from the repo (it picks up `render.yaml` automatically).
+3. Fill in the secret env vars Render prompts for (`ANTHROPIC_API_KEY`, `NEO4J_URI`,
+   `NEO4J_USERNAME`, `NEO4J_PASSWORD`, `NEO4J_DATABASE`, candidate contact fields, etc.) —
+   same values as your local `.env`.
+4. Render builds with `pip install -r requirements.txt` and starts
+   `uvicorn resume_agent.api:app --host 0.0.0.0 --port $PORT`.
+
+Free-tier services spin down after ~15 min idle and take ~30-60s to wake on the next request —
+expect that extra delay on the first call after inactivity. Generated `output/` files are not
+persisted across deploys/restarts on the free tier, so download them promptly after each run.
+
 ## Tests
 
 ```bash

@@ -1,5 +1,5 @@
 from resume_agent.config import settings
-from resume_agent.embeddings import best_match
+from resume_agent.embeddings import best_matches
 from resume_agent.graph.cypher_templates import (
     ALL_PROJECTS_WITH_ACCOMPLISHMENTS,
     ALL_SKILL_NAMES,
@@ -16,6 +16,18 @@ from resume_agent.schemas import (
 )
 
 
+def _to_str(value) -> str:
+    """Coerce a collected graph value to a single string.
+
+    Some Project/Accomplishment nodes store multi-valued properties (e.g. several
+    historical title variants) as a list instead of a string; collapse those so
+    schema validation doesn't choke on a list where a str is expected.
+    """
+    if isinstance(value, list):
+        return "; ".join(str(v) for v in value if v)
+    return str(value)
+
+
 def _normalize_skills(jd_skills: list[str], graph_skill_names: list[str]) -> tuple[dict[str, tuple[str, float]], list[str]]:
     """Map each JD skill phrase to its best-matching canonical graph Skill name.
 
@@ -23,8 +35,7 @@ def _normalize_skills(jd_skills: list[str], graph_skill_names: list[str]) -> tup
     """
     matches: dict[str, tuple[str, float]] = {}
     unmatched: list[str] = []
-    for jd_skill in jd_skills:
-        graph_skill, sim = best_match(jd_skill, graph_skill_names)
+    for jd_skill, (graph_skill, sim) in zip(jd_skills, best_matches(jd_skills, graph_skill_names)):
         if graph_skill is not None and sim >= settings.skill_match_threshold:
             matches[jd_skill] = (graph_skill, sim)
         else:
@@ -55,18 +66,18 @@ def retrieve_graph_context(jd: JDRequirements, client: Neo4jClient) -> GraphCont
                 jd_skill=jd_skill,
                 graph_skill=graph_skill,
                 similarity=sim,
-                projects=[p for p in row.get("projects", []) if p],
-                accomplishments=[a for a in row.get("accomplishments", []) if a],
-                courses=[c for c in row.get("courses", []) if c],
+                projects=[_to_str(p) for p in row.get("projects", []) if p],
+                accomplishments=[_to_str(a) for a in row.get("accomplishments", []) if a],
+                courses=[_to_str(c) for c in row.get("courses", []) if c],
             )
         )
 
     project_rows = client.run_query(ALL_PROJECTS_WITH_ACCOMPLISHMENTS)
     projects = [
         ProjectInfo(
-            name=row["project"],
-            description=row.get("description"),
-            accomplishments=[a for a in row.get("accomplishments", []) if a],
+            name=_to_str(row["project"]),
+            description=_to_str(row["description"]) if row.get("description") else None,
+            accomplishments=[_to_str(a) for a in row.get("accomplishments", []) if a],
         )
         for row in project_rows
     ]

@@ -22,8 +22,9 @@ job title. Rules:
 - skills: the candidate's matched skills, ordered with the most relevant to the job first.
 - experience: one entry per project provided, using its accomplishments as bullets. Bullets may be \
 rephrased for clarity/impact but must not invent facts, numbers, or technologies not present in the \
-evidence.
+evidence.Just provide the job roles only without description for the roles before 2013.Mention the duration of the projects.
 - education: one entry per course provided.
+- Max size: 2 pages . Use concise language and avoid filler words.
 Do not include any project, skill, or course not present in the evidence. Do not fabricate evidence."""
 
 

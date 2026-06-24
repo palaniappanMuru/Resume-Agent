@@ -1,0 +1,35 @@
+About the job
+Before you apply to a job, select your language preference from the options available at the top right of this page.
+
+Explore your next opportunity at a Fortune Global 500 organization. Envision innovative possibilities, experience our rewarding culture, and work with talented teams that help you become better every day. We know what it takes to lead UPS into tomorrow—people with a unique combination of skill + passion. If you have the qualities and drive to lead yourself or teams, there are roles ready to cultivate your skills and take you to the next level.
+
+Job Description
+
+Moving our world forward by delivering what matters!
+
+UPS is a company with a proud past and an even brighter future. Our values define us. Our culture differentiates us. Our strategy drives us. At UPS we are customer first, people led and innovation driven. UPS’s India based Technology Development Centers will bring UPS one step closer to creating a global technology workforce that will help accelerate our digital journey and help us engineer technology solutions that drastically improve our competitive advantage in the field of Logistics.
+
+‘Future You’ grows as a visible and valued Technology professional with UPS, driving us towards an exciting tomorrow. As a global Technology organization we can put serious resources behind your development. If you are solutions orientated, UPS Technology is the place for you. ‘Future You’ delivers ground-breaking solutions to some of the biggest logistics challenges around the globe. You’ll take technology to unimaginable places and really make a difference for UPS and our customers.
+
+Job Summary
+
+This position ties technology to our business needs and determines how new solutions, carrier business rules, and industry changes will affect our customers. He/She performs analysis to ensure we maximize the positive impact across the business, documents what needs to be built and certifies the resulting product with our carrier business partners. This position enables the organization to achieve its goals and brings value to our teams and customers.
+
+Responsibilities
+
+Works with little or no supervision on projects of moderate to high complexity and independently on projects of low to moderate complexity.
+Serves as liaison between our Business Development, Development and Quality Assurance teams.
+Serves as the primary technical contact with carrier partners and certification teams.
+Contributes to the identification of solutions, elicitation and development of business and functional requirements that meet the needs of the business in a date driven business and application development environment.
+
+Primary Skills
+
+Azure Cloud, Azure DevOps, .NET core, Java, Python, Angular JS, SQL Server, CI/CD Technologies, KubernetesC#, Java, SAFE, able to learn quick and work in highly scalable teams
+
+Qualifications
+
+Highly experienced in Requirements elicitation and documentation analysis
+Hands-on experience with Software Development tools and ability to perform some scripting tasks
+Knowledge of Microsoft Office and other documentation tools
+Bachelor's Degree (or internationally comparable degree) in Computer Science or related field - Preferred
+Experience with Carrier business rules and industry standards - Preferred

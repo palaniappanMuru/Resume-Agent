@@ -3,7 +3,24 @@
     "allow": [
       "Bash(ls -la \"c:\\\\Users\\\\User\\\\Desktop\\\\The Condenser\\\\Code\\\\Resume Agent\\\\\" | head -50)",
       "Read(//c/Users/User/Desktop/The Condenser/Code/**)",
-      "Bash(python -m pytest tests/ -q)"
+      "Bash(python -m pytest tests/ -q)",
+      "Bash(cat .gitignore)",
+      "Bash(cat .env.example)",
+      "Bash(cat .dockerignore)",
+      "Bash(python -c \"from resume_agent.api import app; print\\('ok', [r.path for r in app.routes]\\)\")",
+      "Bash(python -m pip install -q fastapi \"uvicorn[standard]\" python-multipart)",
+      "Bash(where python *)",
+      "Bash(./.venv/Scripts/python.exe -c \"import fastapi\")",
+      "Bash(./.venv/Scripts/python.exe -m pip install -q fastapi \"uvicorn[standard]\" python-multipart)",
+      "Bash(./.venv/Scripts/python.exe -c \"from resume_agent.api import app; print\\('ok', [r.path for r in app.routes]\\)\")",
+      "Bash(./.venv/Scripts/python.exe -m uvicorn resume_agent.api:app --host 127.0.0.1 --port 8123)",
+      "Bash(curl -s http://127.0.0.1:8123/health)",
+      "Read(//tmp/**)",
+      "Bash(jobs)",
+      "Bash(curl -s -X POST http://127.0.0.1:8123/generate-resume -F \"jd_file=@data/EnggMgr-US-bank.txt\" --max-time 120)",
+      "Bash(kill %1)",
+      "Bash(curl -s -X POST http://127.0.0.1:8123/generate-resume -F \"jd_file=@data/EnggMgr-US-bank.txt\" --max-time 180 -o /tmp/resp.json -w \"HTTP %{http_code}\\\\n\")",
+      "Bash(python -c \"import json;d=json.load\\(open\\('/tmp/resp.json'\\)\\);print\\(json.dumps\\({k:v for k,v in d.items\\(\\) if k!='resume'}, indent=2\\)\\)\")"
     ]
   }
 }

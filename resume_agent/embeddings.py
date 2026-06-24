@@ -29,8 +29,25 @@ def best_match(query: str, candidates: list[str]) -> tuple[str | None, float]:
     """Return (best matching candidate, similarity) for a single query string."""
     if not candidates:
         return None, 0.0
-    q = embed([query])
+    return best_matches([query], candidates)[0]
+
+
+def best_matches(queries: list[str], candidates: list[str]) -> list[tuple[str | None, float]]:
+    """Return (best matching candidate, similarity) for each query, batched.
+
+    Embeds `candidates` once and reuses it across all queries, instead of re-embedding
+    the whole candidate list per query (which is what repeatedly calling `best_match` in
+    a loop does, and is the dominant cost when candidates is large).
+    """
+    if not queries:
+        return []
+    if not candidates:
+        return [(None, 0.0)] * len(queries)
+    q = embed(queries)
     c = embed(candidates)
-    sims = cosine_sim_matrix(q, c)[0]
-    idx = int(np.argmax(sims))
-    return candidates[idx], float(sims[idx])
+    sims = cosine_sim_matrix(q, c)
+    results = []
+    for row in sims:
+        idx = int(np.argmax(row))
+        results.append((candidates[idx], float(row[idx])))
+    return results

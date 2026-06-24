@@ -29,12 +29,13 @@ def test_retrieve_graph_context_matches_skills_and_collects_evidence(monkeypatch
     )
 
     # Deterministic fake similarity: "Python" matches "Python" at 0.95, "Kubernetes" has no match.
-    def fake_best_match(query, candidates):
-        if query == "Python" and "Python" in candidates:
-            return "Python", 0.95
-        return None, 0.0
+    def fake_best_matches(queries, candidates):
+        return [
+            ("Python", 0.95) if query == "Python" and "Python" in candidates else (None, 0.0)
+            for query in queries
+        ]
 
-    monkeypatch.setattr(graph_retrieval, "best_match", fake_best_match)
+    monkeypatch.setattr(graph_retrieval, "best_matches", fake_best_matches)
 
     client = FakeNeo4jClient(
         skill_names=["Python", "Java"],

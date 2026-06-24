@@ -1,5 +1,5 @@
 from resume_agent.config import settings
-from resume_agent.embeddings import best_match
+from resume_agent.embeddings import best_matches
 from resume_agent.schemas import ATSReport, GraphContext, JDRequirements, ScoreBreakdown
 
 # Evidence text pool that semantic similarity is matched against: project/accomplishment
@@ -27,10 +27,7 @@ def _semantic_similarity_score(jd: JDRequirements, evidence: list[str]) -> tuple
     items = jd.domain_experience + jd.key_responsibilities
     if not items:
         return 1.0, {}
-    per_item_sim: dict[str, float] = {}
-    for item in items:
-        _, sim = best_match(item, evidence)
-        per_item_sim[item] = sim
+    per_item_sim = {item: sim for item, (_, sim) in zip(items, best_matches(items, evidence))}
     avg = sum(per_item_sim.values()) / len(per_item_sim)
     return avg, per_item_sim
 

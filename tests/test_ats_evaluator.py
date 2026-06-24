@@ -9,10 +9,13 @@ from resume_agent.tools import ats_evaluator
 
 
 def fake_best_match_factory(sim_for_domain_experience):
-    def fake_best_match(query, candidates):
-        return (candidates[0] if candidates else None), sim_for_domain_experience.get(query, 0.9)
+    def fake_best_matches(queries, candidates):
+        return [
+            ((candidates[0] if candidates else None), sim_for_domain_experience.get(query, 0.9))
+            for query in queries
+        ]
 
-    return fake_best_match
+    return fake_best_matches
 
 
 def test_evaluate_ats_scores_matches_and_flags_missing_skills(monkeypatch):
@@ -49,7 +52,7 @@ def test_evaluate_ats_scores_matches_and_flags_missing_skills(monkeypatch):
 
     monkeypatch.setattr(
         ats_evaluator,
-        "best_match",
+        "best_matches",
         fake_best_match_factory({"fintech": 0.8, "Build ETL pipelines": 0.7}),
     )
 
@@ -67,7 +70,7 @@ def test_evaluate_ats_with_no_requirements_scores_perfectly(monkeypatch):
     jd = JDRequirements(job_title="Anything")
     graph_ctx = GraphContext()
 
-    monkeypatch.setattr(ats_evaluator, "best_match", fake_best_match_factory({}))
+    monkeypatch.setattr(ats_evaluator, "best_matches", fake_best_match_factory({}))
 
     report = ats_evaluator.evaluate_ats(jd, graph_ctx)
 

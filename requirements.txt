@@ -8,3 +8,6 @@ sentence-transformers>=3
 python-docx>=1.1
 pypdf>=4
 python-dotenv>=1
+fastapi>=0.110
+uvicorn[standard]>=0.29
+python-multipart>=0.0.9

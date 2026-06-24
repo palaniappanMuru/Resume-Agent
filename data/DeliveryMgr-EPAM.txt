@@ -1,0 +1,38 @@
+About the job
+We are seeking a highly experienced Senior Delivery Manager to lead the delivery and transformation of a mission-critical business application within a complex, distributed and regulated environment. This role is pivotal in driving application development in a brownfield environment, ensuring seamless integration, modernization and operational excellence. The ideal candidate brings deep experience in insurance or reinsurance, exceptional leadership in Agile project management and proven ability to run Agile teams and manage Agile Scrum ceremonies.
+ 
+Responsibilities
+
+Lead end-to-end delivery of complex business applications, ensuring quality, timelines and business outcomes
+Manage small to medium-scale development initiatives in brownfield environments, including modernization and transformation efforts
+Oversight of multi-disciplinary teams across distributed locations, spanning engineering, QA, architecture, DevOps and BA
+Define and enforce delivery governance, risk management and compliance frameworks
+Champion Agile practices such as Scrum, driving continuous improvement and predictable delivery
+Facilitation of sprint planning, backlog refinement, release planning and cross-team coordination
+Track delivery metrics and proactively identify risks, dependencies and impediments
+Act as the primary delivery interface for business, technology and executive stakeholders
+Translate business objectives into actionable plans and technical roadmaps
+Provide guidance on application development, modernization and integration, while collaborating closely with the solution architect to define scalable, resilient and secure system designs
+Ensure adherence to regulatory requirements relevant to insurance and reinsurance through audit-compliant delivery processes
+Oversight of Run and Build operations across highly distributed, high-availability environments, while driving continuous service improvement and automation to reduce operational risk
+ 
+Requirements
+
+16-20 years of experience in software development, with 3-4 years in a delivery or project manager role
+Knowledge of Java-based applications, Azure cloud services and Angular
+Proficiency in databases such as MS SQL Server and PostgreSQL
+Proven delivery experience in complex, distributed and regulated environments
+Background in managing brownfield application development and transformation
+Strong background in the insurance or reinsurance domain
+Expertise in Agile methodologies and enterprise delivery frameworks
+Excellent stakeholder communication, negotiation and leadership skills
+Familiarity with DevOps pipelines, CI/CD and automation frameworks
+Experience working with global teams in onsite-offshore models
+Mandatory use of AI tools for at least the last 4 projects
+ 
+Nice to have
+
+ITIL v4 Foundation or higher certification
+PMP, PRINCE2, or equivalent project management certification
+Flexibility to use cloud platforms such as AWS, Azure and GCP alongside DevOps practices
+Understanding of regulatory and compliance requirements in the insurance and reinsurance sector
